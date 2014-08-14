@@ -1,0 +1,56 @@
+<?php
+
+/**
+*
+* @package Game Tooltips
+* @copyright (c) 2014 PayBas
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
+
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
+$lang = array_merge($lang, array(
+	'GAME_TOOLTIPS'           => 'Tooltips de Juegos',
+	'GAME_TOOLTIPS_EXPLAIN'   => 'Esta extensión le permite habilitar scripts tooltip para varios juegos. Por lo general, trabajan mediante la búsqueda de enlaces en la página que se muestra al usuario al pasar el ratón por encima (efecto JavaScript) con el contexto específico de la página el enlace se refiere.',
+	'GAME_TOOLTIPS_SETTINGS'  => 'Ajustes',
+
+	'GTTIPS_WOWHEAD'          => 'Wowhead Tooltips',
+	'GTTIPS_WOWHEAD_EXPLAIN'  => 'Habilitar tooltips para World of Warcraft y HearthStone. Para más información, visite <a href="http://www.wowhead.com/tooltips" target="_blank">Wowhead</a>.',
+
+	'GTTIPS_DIABLO3'          => 'Diablo 3 Tooltips',
+	'GTTIPS_DIABLO3_EXPLAIN'  => 'Habilitar tooltips para Diablo 3 (oficialmente proporcionada por Blizzard Entertainment). Para más información, visite <a href="http://us.battle.net/d3/en/tooltip/" target="_blank">Battle.net</a>.',
+
+	'GTTIPS_WILDHEAP'         => 'WildHeap Tooltips',
+	'GTTIPS_WILDHEAP_EXPLAIN' => 'Habilitar tooltips para WildStar. Para más información, visite <a href="http://wildheap.com/en/tooltips" target="_blank">WildHeap</a>.',
+
+	'GTTIPS_LOLTIP'           => 'LoLTip Tooltips',
+	'GTTIPS_LOLTIP_EXPLAIN'   => 'Habilitar tooltips para League of Legends. Para más información, visite <a href="http://www.arcana-gaming.com/en/LoL/Tooltip" target="_blank">LoLTip</a>.',
+
+	'GTTIPS_ZAM'              => 'ZAM Tooltips',
+	'GTTIPS_ZAM_EXPLAIN'      => 'Habilitar tooltips para Everquest (1 y 2), Final Fantasy (XI y XIV), LotR Online, y Warhammer Online. Para más información, visite <a href="http://www.zam.com/wiki/Tooltips" target="_blank">ZAM Tooltips Wiki</a>.',
+
+	'GTTIPS_REGION'           => 'Ajuste de región',
+	'GTTIPS_REGION_EXPLAIN'   => 'Algunos (no todos) scripts tooltip tienen distribución regional. En función de los datos demográficos de sus usuarios, podría ser aconsejable elegir el que tenga la menor latencia.',
+
+	'LOG_GTTIPS_CONFIG'       => '<strong>Ajustes de Tooltips de Juegos alterados</strong><br />&raquo; %s',
+));
