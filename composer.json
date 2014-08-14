@@ -1,7 +1,7 @@
 {
     "name": "paybas/gametooltips",
     "type": "phpbb-extension",
-    "description": "Enable game-related tooltips for games like WoW, Diablo 3, Wildstar and more.",
+    "description": "Enable game-related tooltips for games like WoW, Diablo 3, WildStar and more.",
     "homepage": "http://pbwow.com/",
     "version": "1.0.0",
     "time": "2014-08-14",
