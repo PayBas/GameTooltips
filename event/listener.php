@@ -48,7 +48,7 @@ class listener implements EventSubscriberInterface
 		);
 	}
 
-	public function assign_to_template($event)
+	public function assign_to_template()
 	{
 		$tpl_vars = array(
 			'GTTIPS_WOWHEAD'  => isset($this->config['gttips_wowhead']) ? $this->config['gttips_wowhead'] : false,
