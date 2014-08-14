@@ -1,0 +1,66 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_GAME_TOOLTIPS}</h1>
+
+<p>{L_GAME_TOOLTIPS_EXPLAIN}</p>
+
+<form id="game_tooltips_form" method="post" action="{U_ACTION}">
+
+	<fieldset>
+		<legend>{L_GAME_TOOLTIPS_SETTINGS}</legend>
+		<dl>
+			<dt><label for="gttips_wowhead">{L_GTTIPS_WOWHEAD}{L_COLON}</label><br /><span>{L_GTTIPS_WOWHEAD_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="gttips_wowhead" value="1" id="gttips_wowhead"<!-- IF S_GTTIPS_WOWHEAD --> checked="checked"<!-- ENDIF --> /> {L_ENABLED}</label>
+				<label><input type="radio" class="radio" name="gttips_wowhead" value="0"<!-- IF not S_GTTIPS_WOWHEAD --> checked="checked"<!-- ENDIF --> /> {L_DISABLED}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="gttips_diablo3">{L_GTTIPS_DIABLO3}{L_COLON}</label><br /><span>{L_GTTIPS_DIABLO3_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="gttips_diablo3" value="1" id="gttips_diablo3"<!-- IF S_GTTIPS_DIABLO3 --> checked="checked"<!-- ENDIF --> /> {L_ENABLED}</label>
+				<label><input type="radio" class="radio" name="gttips_diablo3" value="0"<!-- IF not S_GTTIPS_DIABLO3 --> checked="checked"<!-- ENDIF --> /> {L_DISABLED}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="gttips_wildheap">{L_GTTIPS_WILDHEAP}{L_COLON}</label><br /><span>{L_GTTIPS_WILDHEAP_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="gttips_wildheap" value="1" id="gttips_wildheap"<!-- IF S_GTTIPS_WILDHEAP --> checked="checked"<!-- ENDIF --> /> {L_ENABLED}</label>
+				<label><input type="radio" class="radio" name="gttips_wildheap" value="0"<!-- IF not S_GTTIPS_WILDHEAP --> checked="checked"<!-- ENDIF --> /> {L_DISABLED}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="gttips_loltip">{L_GTTIPS_LOLTIP}{L_COLON}</label><br /><span>{L_GTTIPS_LOLTIP_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="gttips_loltip" value="1" id="gttips_loltip"<!-- IF S_GTTIPS_LOLTIP --> checked="checked"<!-- ENDIF --> /> {L_ENABLED}</label>
+				<label><input type="radio" class="radio" name="gttips_loltip" value="0"<!-- IF not S_GTTIPS_LOLTIP --> checked="checked"<!-- ENDIF --> /> {L_DISABLED}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="gttips_zam">{L_GTTIPS_ZAM}{L_COLON}</label><br /><span>{L_GTTIPS_ZAM_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="gttips_zam" value="1" id="gttips_zam"<!-- IF S_GTTIPS_ZAM --> checked="checked"<!-- ENDIF --> /> {L_ENABLED}</label>
+				<label><input type="radio" class="radio" name="gttips_zam" value="0"<!-- IF not S_GTTIPS_ZAM --> checked="checked"<!-- ENDIF --> /> {L_DISABLED}</label>
+			</dd>
+		</dl>
+		<dl>
+			<dt><label for="gttips_region">{L_GTTIPS_REGION}{L_COLON}</label><br /><span>{L_GTTIPS_REGION_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="gttips_region" value="1" id="gttips_region"<!-- IF S_GTTIPS_REGION --> checked="checked"<!-- ENDIF --> /> US</label>
+				<label><input type="radio" class="radio" name="gttips_region" value="0"<!-- IF not S_GTTIPS_REGION --> checked="checked"<!-- ENDIF --> /> EU</label>
+			</dd>
+		</dl>
+	</fieldset>
+
+	<fieldset>
+		<legend>{L_ACP_SUBMIT_CHANGES}</legend>
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+		{S_FORM_TOKEN}
+	</fieldset>
+
+</form>
+
+<!-- INCLUDE overall_footer.html -->

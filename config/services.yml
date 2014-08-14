@@ -1,0 +1,8 @@
+services:
+    paybas.gametooltips.listener:
+        class: paybas\gametooltips\event\listener
+        arguments:
+            - @config
+            - @template
+        tags:
+            - { name: event.listener }
