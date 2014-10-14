@@ -20,7 +20,7 @@ Extension for phpBB 3.1 that adds tooltip scripts for various games to your foru
   - Warhammer Online
 
 #### Requirements
-- phpBB 3.1-RC3 or higher
+- phpBB 3.1-RC5 or higher
 - PHP 5.3.3 or higher
 
 #### Languages supported
