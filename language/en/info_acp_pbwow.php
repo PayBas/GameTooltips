@@ -49,6 +49,9 @@ $lang = array_merge($lang, array(
 	'GTTIPS_ZAM'              => 'ZAM Tooltips',
 	'GTTIPS_ZAM_EXPLAIN'      => 'Enables tooltips for Everquest (1 & 2), Final Fantasy (XI & XIV), LotR Online, and Warhammer Online. For more information, visit <a href="http://www.zam.com/wiki/Tooltips" target="_blank">ZAM Tooltips Wiki</a>.',
 
+	'GTTIPS_XIVDB'            => 'XIVDB Tooltips',
+	'GTTIPS_XIVDB_EXPLAIN'    => 'Enables tooltips for Final Fantasy XIV. For more information, visit <a href="http://xivdb.com/?tooltip" target="_blank">XIVDB</a>.',
+
 	'GTTIPS_REGION'           => 'Region Setting',
 	'GTTIPS_REGION_EXPLAIN'   => 'Some (not all) tooltip scripts have regional distribution. Depending on your user\'s demographics, it might be advisable to choose the one with the lowest latency.',
 

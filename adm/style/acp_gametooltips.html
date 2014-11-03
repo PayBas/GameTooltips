@@ -44,6 +44,13 @@
 			</dd>
 		</dl>
 		<dl>
+			<dt><label for="gttips_xivdb">{L_GTTIPS_XIVDB}{L_COLON}</label><br /><span>{L_GTTIPS_XIVDB_EXPLAIN}</span></dt>
+			<dd>
+				<label><input type="radio" class="radio" name="gttips_xivdb" value="1" id="gttips_xivdb"<!-- IF S_GTTIPS_XIVDB --> checked="checked"<!-- ENDIF --> /> {L_ENABLED}</label>
+				<label><input type="radio" class="radio" name="gttips_xivdb" value="0"<!-- IF not S_GTTIPS_XIVDB --> checked="checked"<!-- ENDIF --> /> {L_DISABLED}</label>
+			</dd>
+		</dl>
+		<dl>
 			<dt><label for="gttips_region">{L_GTTIPS_REGION}{L_COLON}</label><br /><span>{L_GTTIPS_REGION_EXPLAIN}</span></dt>
 			<dd>
 				<label><input type="radio" class="radio" name="gttips_region" value="1" id="gttips_region"<!-- IF S_GTTIPS_REGION --> checked="checked"<!-- ENDIF --> /> US</label>

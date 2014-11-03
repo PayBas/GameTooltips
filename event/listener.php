@@ -56,6 +56,7 @@ class listener implements EventSubscriberInterface
 			'GTTIPS_WILDHEAP' => isset($this->config['gttips_wildheap']) ? $this->config['gttips_wildheap'] : false,
 			'GTTIPS_LOLTIP'   => isset($this->config['gttips_loltip']) ? $this->config['gttips_loltip'] : false,
 			'GTTIPS_ZAM'      => isset($this->config['gttips_zam']) ? $this->config['gttips_zam'] : false,
+			'GTTIPS_XIVDB'    => isset($this->config['gttips_xivdb']) ? $this->config['gttips_xivdb'] : false,
 			'GTTIPS_REGION'   => (isset($this->config['gttips_region']) && $this->config['gttips_region'] > 0) ? 'us' : 'eu',
 		);
 
