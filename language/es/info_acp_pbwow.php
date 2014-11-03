@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'GTTIPS_LOLTIP_EXPLAIN'   => 'Habilitar tooltips para League of Legends. Para más información, visite <a href="http://www.arcana-gaming.com/en/LoL/Tooltip" target="_blank">LoLTip</a>.',
 
 	'GTTIPS_ZAM'              => 'ZAM Tooltips',
-	'GTTIPS_ZAM_EXPLAIN'      => 'Habilitar tooltips para Everquest (1 y 2), Final Fantasy (XI y XIV), LotR Online, y Warhammer Online. Para más información, visite <a href="http://www.zam.com/wiki/Tooltips" target="_blank">ZAM Tooltips Wiki</a>.',
+	'GTTIPS_ZAM_EXPLAIN'      => 'Habilitar tooltips para Everquest (1 y 2), Final Fantasy XI, LotR Online, y Warhammer Online. Para más información, visite <a href="http://www.zam.com/wiki/Tooltips" target="_blank">ZAM Tooltips Wiki</a>.',
 
 	'GTTIPS_XIVDB'            => 'XIVDB Tooltips',
 	'GTTIPS_XIVDB_EXPLAIN'    => 'Enables tooltips for Final Fantasy XIV. For more information, visit <a href="http://xivdb.com/?tooltip" target="_blank">XIVDB</a>.',
