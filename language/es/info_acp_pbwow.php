@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'GTTIPS_ZAM_EXPLAIN'      => 'Habilitar tooltips para Everquest (1 y 2), Final Fantasy XI, LotR Online, y Warhammer Online. Para más información, visite <a href="http://www.zam.com/wiki/Tooltips" target="_blank">ZAM Tooltips Wiki</a>.',
 
 	'GTTIPS_XIVDB'            => 'XIVDB Tooltips',
-	'GTTIPS_XIVDB_EXPLAIN'    => 'Enables tooltips for Final Fantasy XIV. For more information, visit <a href="http://xivdb.com/?tooltip" target="_blank">XIVDB</a>.',
+	'GTTIPS_XIVDB_EXPLAIN'    => 'Habilitar tooltips para Final Fantasy XIV. Para más información, visite <a href="http://xivdb.com/?tooltip" target="_blank">XIVDB</a>.',
 
 	'GTTIPS_REGION'           => 'Ajuste de región',
 	'GTTIPS_REGION_EXPLAIN'   => 'Algunos (no todos) scripts tooltip tienen distribución regional. En función de los datos demográficos de sus usuarios, podría ser aconsejable elegir el que tenga la menor latencia.',
