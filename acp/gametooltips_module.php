@@ -58,6 +58,15 @@ class gametooltips_module
 			$gttips_xivdb = $request->variable('gttips_xivdb', 0);
 			$config->set('gttips_xivdb', $gttips_xivdb);
 
+			$gttips_swtor = $request->variable('gttips_swtor', 0);
+			$config->set('gttips_swtor', $gttips_swtor);
+
+			$gttips_destiny = $request->variable('gttips_destiny', 0);
+			$config->set('gttips_destiny', $gttips_destiny);
+
+			$gttips_esohead = $request->variable('gttips_esohead', 0);
+			$config->set('gttips_esohead', $gttips_esohead);
+
 			$gttips_region = $request->variable('gttips_region', 1);
 			$config->set('gttips_region', $gttips_region);
 
@@ -71,6 +80,10 @@ class gametooltips_module
 			'S_GTTIPS_LOLTIP'   => isset($config['gttips_loltip']) ? $config['gttips_loltip'] : false,
 			'S_GTTIPS_ZAM'      => isset($config['gttips_zam']) ? $config['gttips_zam'] : false,
 			'S_GTTIPS_XIVDB'    => isset($config['gttips_xivdb']) ? $config['gttips_xivdb'] : false,
+			'S_GTTIPS_SWTOR'    => isset($config['gttips_swtor']) ? $config['gttips_swtor'] : false,
+			'S_GTTIPS_DESTINY'  => isset($config['gttips_destiny']) ? $config['gttips_destiny'] : false,
+			'S_GTTIPS_ESOHEAD'  => isset($config['gttips_esohead']) ? $config['gttips_esohead'] : false,
+
 			'S_GTTIPS_REGION'   => isset($config['gttips_region']) ? $config['gttips_region'] : false,
 			'U_ACTION'          => $this->u_action,
 		));

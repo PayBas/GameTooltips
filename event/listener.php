@@ -57,6 +57,10 @@ class listener implements EventSubscriberInterface
 			'GTTIPS_LOLTIP'   => isset($this->config['gttips_loltip']) ? $this->config['gttips_loltip'] : false,
 			'GTTIPS_ZAM'      => isset($this->config['gttips_zam']) ? $this->config['gttips_zam'] : false,
 			'GTTIPS_XIVDB'    => isset($this->config['gttips_xivdb']) ? $this->config['gttips_xivdb'] : false,
+			'GTTIPS_SWTOR'    => isset($this->config['gttips_swtor']) ? $this->config['gttips_swtor'] : false,
+			'GTTIPS_DESTINY'  => isset($this->config['gttips_destiny']) ? $this->config['gttips_destiny'] : false,
+			'GTTIPS_ESOHEAD'  => isset($this->config['gttips_esohead']) ? $this->config['gttips_esohead'] : false,
+
 			'GTTIPS_REGION'   => (isset($this->config['gttips_region']) && $this->config['gttips_region'] > 0) ? 'us' : 'eu',
 		);
 

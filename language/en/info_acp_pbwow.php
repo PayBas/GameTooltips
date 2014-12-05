@@ -52,6 +52,15 @@ $lang = array_merge($lang, array(
 	'GTTIPS_XIVDB'            => 'XIVDB Tooltips',
 	'GTTIPS_XIVDB_EXPLAIN'    => 'Enables tooltips for Final Fantasy XIV. For more information, visit <a href="http://xivdb.com/?tooltip" target="_blank">XIVDB</a>.',
 
+	'GTTIPS_SWTOR'            => 'SWTOR Tooltips',
+	'GTTIPS_SWTOR_EXPLAIN'    => 'Enables tooltips for Star Wars - The Old Republic. For more information, visit <a href="http://swtor.askmrrobot.com/" target="_blank">Ask Mr. Robot</a>.',
+
+	'GTTIPS_DESTINY'          => 'DestinyDB Tooltips',
+	'GTTIPS_DESTINY_EXPLAIN'  => 'Enables tooltips for Destiny. For more information, visit <a href="http://www.destinydb.com/tooltips" target="_blank">DestinyDB</a>.',
+
+	'GTTIPS_ESOHEAD'          => 'Esohead Tooltips',
+	'GTTIPS_ESOHEAD_EXPLAIN'  => 'Enables tooltips for The Elder Scrolls Online. For more information, visit <a href="http://www.esohead.com/tooltips" target="_blank">Esohead</a>.',
+
 	'GTTIPS_REGION'           => 'Region Setting',
 	'GTTIPS_REGION_EXPLAIN'   => 'Some (not all) tooltip scripts have regional distribution. Depending on your user\'s demographics, it might be advisable to choose the one with the lowest latency.',
 

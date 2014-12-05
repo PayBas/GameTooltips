@@ -18,6 +18,9 @@ Extension for phpBB 3.1 that adds tooltip scripts for various games to your foru
   - Final Fantasy (XI & XIV)
   - LotR Online
   - Warhammer Online
+  - Star Wars - The Old Republic
+  - Destiny
+  - The Elder Scrolls Online
 
 #### Requirements
 - phpBB 3.1.0 or higher
@@ -26,6 +29,8 @@ Extension for phpBB 3.1 that adds tooltip scripts for various games to your foru
 #### Languages supported
 - English
 - Spanish
+- Dutch
+- German
 
 ## Installation
 1. [Download the latest release](https://github.com/PayBas/GameTooltips/releases) and unzip it.

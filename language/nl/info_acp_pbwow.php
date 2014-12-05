@@ -1,4 +1,5 @@
 <?php
+
 /**
 *
 * @package Game Tooltips
@@ -15,6 +16,7 @@ if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -26,23 +28,41 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
 $lang = array_merge($lang, array(
 	'GAME_TOOLTIPS'           => 'Game Tooltips',
-	'GAME_TOOLTIPS_EXPLAIN'   => 'Met deze extensie kun je tooltips van verschillende spellen weergeven. Het werkt door te kijken naar links op de huidige pagina die worden getoond aan de gebruiker, en voegt dan een JavaScript mouse-over effect met context aan de link toe.',
+	'GAME_TOOLTIPS_EXPLAIN'   => 'Met deze extensie kun je tooltips van verschillende spellen weergeven. Het werkt door te zoeken naar links op de huidige pagina die worden getoond aan de gebruiker, en voegt dan een JavaScript mouse-over effect met context aan de link toe.',
 	'GAME_TOOLTIPS_SETTINGS'  => 'Instellingen',
+
 	'GTTIPS_WOWHEAD'          => 'Wowhead Tooltips',
-	'GTTIPS_WOWHEAD_EXPLAIN'  => 'Schakelt tooltips voor World of Warcraft en HearthStone in. Voor meer informatie, bezoek <a href="http://www.wowhead.com/tooltips" target="_blank">Wowhead</a>.',
+	'GTTIPS_WOWHEAD_EXPLAIN'  => 'Schakelt tooltips voor World of Warcraft en HearthStone in. Voor meer informatie, zie <a href="http://www.wowhead.com/tooltips" target="_blank">Wowhead</a>.',
+
 	'GTTIPS_DIABLO3'          => 'Diablo 3 Tooltips',
-	'GTTIPS_DIABLO3_EXPLAIN'  => 'Schakelt tooltips voor Diablo 3 (officieel door Blizzard Entertainment) in. Voor meer informatie, bezoek <a href="http://us.battle.net/d3/en/tooltip/" target="_blank">Battle.net</a>.',
+	'GTTIPS_DIABLO3_EXPLAIN'  => 'Schakelt tooltips voor Diablo 3 (officieel door Blizzard Entertainment) in. Voor meer informatie, zie <a href="http://us.battle.net/d3/en/tooltip/" target="_blank">Battle.net</a>.',
+
 	'GTTIPS_WILDHEAP'         => 'WildHeap Tooltips',
-	'GTTIPS_WILDHEAP_EXPLAIN' => 'Schakelt tooltips voor WildStar in. Voor meer informatie, bezoek <a href="http://wildheap.com/en/tooltips" target="_blank">WildHeap</a>.',
+	'GTTIPS_WILDHEAP_EXPLAIN' => 'Schakelt tooltips voor WildStar in. Voor meer informatie, zie <a href="http://wildheap.com/en/tooltips" target="_blank">WildHeap</a>.',
+
 	'GTTIPS_LOLTIP'           => 'LoLTip Tooltips',
-	'GTTIPS_LOLTIP_EXPLAIN'   => 'Schakelt tooltips voor League of Legends in. Voor meer informatie, bezoek <a href="http://www.arcana-gaming.com/en/LoL/Tooltip" target="_blank">LoLTip</a>.',
+	'GTTIPS_LOLTIP_EXPLAIN'   => 'Schakelt tooltips voor League of Legends in. Voor meer informatie, zie <a href="http://www.arcana-gaming.com/en/LoL/Tooltip" target="_blank">LoLTip</a>.',
+
 	'GTTIPS_ZAM'              => 'ZAM Tooltips',
-	'GTTIPS_ZAM_EXPLAIN'      => 'Schakelt tooltips voor Everquest (1 & 2), Final Fantasy XI, LotR Online, en Warhammer Online in. Voor meer informatie, bezoek <a href="http://www.zam.com/wiki/Tooltips" target="_blank">ZAM Tooltips Wiki</a>.',
+	'GTTIPS_ZAM_EXPLAIN'      => 'Schakelt tooltips voor Everquest (1 & 2), Final Fantasy XI, LotR Online, en Warhammer Online in. Voor meer informatie, zie <a href="http://www.zam.com/wiki/Tooltips" target="_blank">ZAM Tooltips Wiki</a>.',
+
 	'GTTIPS_XIVDB'            => 'XIVDB Tooltips',
-	'GTTIPS_XIVDB_EXPLAIN'    => 'Schakelt tooltips voor Final Fantasy XIV in. Voor meer informatie, bezoek <a href="http://xivdb.com/?tooltip" target="_blank">XIVDB</a>.',
+	'GTTIPS_XIVDB_EXPLAIN'    => 'Schakelt tooltips voor Final Fantasy XIV in. Voor meer informatie, zie <a href="http://xivdb.com/?tooltip" target="_blank">XIVDB</a>.',
+
+	'GTTIPS_SWTOR'            => 'SWTOR Tooltips',
+	'GTTIPS_SWTOR_EXPLAIN'    => 'Schakelt tooltips voor Star Wars - The Old Republic in. Voor meer informatie, zie <a href="http://swtor.askmrrobot.com/" target="_blank">Ask Mr. Robot</a>.',
+
+	'GTTIPS_DESTINY'          => 'DestinyDB Tooltips',
+	'GTTIPS_DESTINY_EXPLAIN'  => 'Schakelt tooltips voor Destiny in. Voor meer informatie, zie <a href="http://www.destinydb.com/tooltips" target="_blank">DestinyDB</a>.',
+
+	'GTTIPS_ESOHEAD'          => 'Esohead Tooltips',
+	'GTTIPS_ESOHEAD_EXPLAIN'  => 'Schakelt tooltips voor The Elder Scrolls Online in. Voor meer informatie, zie <a href="http://www.esohead.com/tooltips" target="_blank">Esohead</a>.',
+
 	'GTTIPS_REGION'           => 'Regio Instellingen',
-	'GTTIPS_REGION_EXPLAIN'   => 'Sommige (niet alle) tooltip scripts werken per regio. Afhankelijk van de locatie van de gebruiker, is het aan te raden alleen de tooltips te gebruiken die de minste laadtijd hebben.',
+	'GTTIPS_REGION_EXPLAIN'   => 'Sommige (niet alle) tooltip scripts werken per regio. Afhankelijk van de locatie van de meeste forum bezoekers, is het aan te raden de regio te gebruiken die de minste laadtijd (afstand) heeft.',
+
 	'LOG_GTTIPS_CONFIG'       => '<strong>Overige Game Tooltips instellingen</strong><br />&raquo; %s',
 ));
