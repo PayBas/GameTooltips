@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'GTTIPS_ESOHEAD_EXPLAIN'  => 'Enables tooltips for The Elder Scrolls Online. For more information, visit <a href="http://www.esohead.com/tooltips" target="_blank">Esohead</a>.',
 
 	'GTTIPS_REGION'           => 'Region Setting',
-	'GTTIPS_REGION_EXPLAIN'   => 'Some (not all) tooltip scripts have regional distribution. Depending on your user\'s demographics, it might be advisable to choose the one with the lowest latency.',
+	'GTTIPS_REGION_EXPLAIN'   => 'Some (not all) tooltip scripts have regional distribution. Depending on your user&#39;s demographics, it might be advisable to choose the one with the lowest latency.',
 
 	'LOG_GTTIPS_CONFIG'       => '<strong>Altered Game Tooltips settings</strong><br />&raquo; %s',
 ));
