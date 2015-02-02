@@ -10,14 +10,6 @@
 
 namespace paybas\gametooltips\acp;
 
-/**
- * @ignore
- */
-if (!defined('IN_PHPBB'))
-{
-	exit;
-}
-
 class gametooltips_info
 {
 	function module()

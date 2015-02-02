@@ -10,14 +10,6 @@
 
 namespace paybas\gametooltips\migrations;
 
-/**
-* @ignore
-*/
-if (!defined('IN_PHPBB'))
-{
-    exit;
-}
-
 class release_1_0_3 extends \phpbb\db\migration\migration
 {
 	public function effectively_installed()

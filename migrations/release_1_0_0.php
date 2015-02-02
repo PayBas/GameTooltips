@@ -10,14 +10,6 @@
 
 namespace paybas\gametooltips\migrations;
 
-/**
-* @ignore
-*/
-if (!defined('IN_PHPBB'))
-{
-    exit;
-}
-
 class release_1_0_0 extends \phpbb\db\migration\migration
 {
 	public function update_data()
