@@ -31,6 +31,7 @@ Extension for phpBB 3.1 that adds tooltip scripts for various games to your foru
 - Spanish
 - Dutch
 - German
+- Croatian
 
 ## Installation
 1. [Download the latest release](https://github.com/PayBas/GameTooltips/releases) and unzip it.
@@ -46,4 +47,4 @@ Extension for phpBB 3.1 that adds tooltip scripts for various games to your foru
 ### License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
 
-© 2014 - PayBas
+© 2015 - PayBas
