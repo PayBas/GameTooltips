@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'GTTIPS_ESOHEAD_EXPLAIN'  => 'Activer les infobulles pour The Elder Scrolls Online. Pour davantage d’informations, visiter <a href="http://www.esohead.com/tooltips" target="_blank">Esohead</a>.',
 
 	'GTTIPS_REGION'           => 'Paramètre de la région',
-	'GTTIPS_REGION_EXPLAIN'   => 'Certaines (pas toutes) infobulles sont régionalisées. Selon les données géographiques de vos utilisateurs, il pourrait être judicieux de choisir la région avec la plus faible latence.',
+	'GTTIPS_REGION_EXPLAIN'   => 'Certaines infobulles (pas toutes) sont régionalisées. Selon les données géographiques de vos utilisateurs, il pourrait être judicieux de choisir la région avec la plus faible latence.',
 
 	'LOG_GTTIPS_CONFIG'       => '<strong>Paramètres des infobulles modifiés</strong><br />&raquo; %s',
 ));
