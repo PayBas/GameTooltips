@@ -35,7 +35,7 @@ Extension for phpBB 3.1 that adds tooltip scripts for various games to your foru
 
 ## Installation
 1. [Download the latest release](https://github.com/PayBas/GameTooltips/releases) and unzip it.
-2. Copy the entire contents from the unzipped folder to `phpBB/ext/paybas/gametooltips/`.
+2. Copy the entire contents from the unzipped folder to `/ext/paybas/gametooltips/`.
 3. Navigate in the ACP to `Customise -> Manage extensions`.
 4. Find `Game Tooltips` under "Disabled Extensions" and click `Enable`.
 
